@@ -4,7 +4,7 @@
 使用方法参见: [http://www.up4dev.com/2018/05/29/synology-ssl-wildcard-cert-update/](http://www.up4dev.com/2018/05/29/synology-ssl-wildcard-cert-update/)
 
 
-新增 checkCertExpiry 函数：\n
+新增 checkCertExpiry 函数：</br>
 1.通过 openssl 获取证书的到期时间。
 判断证书距离到期的天数，如果是当天，则自动更新证书。
 2.case 语句：
