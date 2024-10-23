@@ -5,11 +5,11 @@
 
 
 新增 checkCertExpiry 函数：</br>
-1.通过 openssl 获取证书的到期时间。
-判断证书距离到期的天数，如果是当天，则自动更新证书。
-2.case 语句：
-增加了 check-expiry 选项，用户可以通过运行 ./script.sh check-expiry 来检查证书是否即将过期并自动更新。
+1.通过 openssl 获取证书的到期时间。</br>
+判断证书距离到期的天数，如果是当天，则自动更新证书。</br>
+2.case 语句：</br>
+增加了 check-expiry 选项，用户可以通过运行 ./script.sh check-expiry 来检查证书是否即将过期并自动更新。</br>
 
-eg：
-sh cert-up.sh check-expiry
+eg：</br>
+sh cert-up.sh check-expiry</br>
 ![image](https://github.com/user-attachments/assets/76aaa056-93e4-4ea4-b7a9-74e53e096e8a)
